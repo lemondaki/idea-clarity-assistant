@@ -1,0 +1,16 @@
+.suggestItem {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.suggestItem:hover {
+    background-color: #ECECF1;
+}
+
+.suggestItem:hover .iconSend {
+    display: block;
+}
+
+.iconSend {
+    display: none;
+}

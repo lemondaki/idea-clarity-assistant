@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Clarity Assitant",
+  "description": "Clarity assitant help user make clearly idea by suggesting api call chatgpt",
+  "version": "1.0",
+  "content_scripts": [{ "css": ["/assets/index-63f50033.css"], "matches": ["<all_urls>"] }],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/chatgpt.png",
+      "32": "icons/icon-gpt.png"
+    },
+    "default_title": "Clarity Assitant"
+  }
+}

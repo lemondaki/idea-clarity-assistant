@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  color: #374151;
+}
+
+
+#root {
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-app {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.3);
+  padding: 8px;
+  /* border-radius: 8px; */
+}
+
+.main-content {
+  height: 100%;
+  width: 100%;
+  padding: 10px 0;
+  overflow-y: auto;
+  position: relative;
+}
+
+.icon-plus {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.main-loading {
+  position: absolute;
+  bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.ant-card {
+  width: 368px;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.ant-card-body {
+  display: flex;
+  width: 368px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-card-body::before,
+.ant-card-body::after {
+  display: none !important;
+}
+
+a .card-header .ant-card-body {
+  display: flex;
+}
+
+.backdrop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.label-chatgpt {
+  font-size: 34px;
+  color: #ccc;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.ant-input-group-addon,
+.ant-input-affix-wrapper {
+  padding: 12px 10px;
+  height: 50px;
+}
+
+.box-center,
+.suggestion {
+  width: 100%;
+}
+
+footer {
+  margin-bottom: 10px;
+  width: calc(100% - 16px);
+}
